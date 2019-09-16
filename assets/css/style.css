@@ -36,8 +36,8 @@ table {
   border-spacing: 0; }
 
 .containerpp{
-  margin-left: 25%!important;
-  margin-right: 25%!important ;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 .pph2{
     font-size: 20px;
@@ -500,10 +500,6 @@ footer {
     .hero {
       background-image: url("../images/1x/hero-bg_desktop_1920.jpg"); } }
   @media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (min-resolution: 192dpi) {
-    .containerpp{
-      margin-left: 10%;
-      margin-right: 10%;
-    }
     .hero {
       background-image: url("../images/2x/hero-bg_desktop 2x.jpg"); } }
 
@@ -554,13 +550,14 @@ footer {
 
 @media (max-width:480px){
   .containerpp{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 10%!important;
+    margin-right: 10%!important;
+  }
   }
   @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .containerpp{
-      margin-left: 25%;
-      margin-right: 25%;
-    }
+    margin-left: 25%;
+    margin-right: 25%;
   }
-}
+  }
+
