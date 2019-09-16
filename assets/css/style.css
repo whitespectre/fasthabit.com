@@ -35,6 +35,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.containerpp{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.pph2{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.ppp{
+  vertical-align: baseline;
+  text-align: left;
+  margin-left: 0;
+
+}
+.lastp{
+    margin-bottom: 40px;
+    text-align: left;
+    margin-left: 0;
+
+
+}
+
 .tns-outer {
   padding: 0 !important; }
   .tns-outer [hidden] {
@@ -474,6 +500,10 @@ footer {
     .hero {
       background-image: url("../images/1x/hero-bg_desktop_1920.jpg"); } }
   @media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (min-resolution: 192dpi) {
+    .containerpp{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
     .hero {
       background-image: url("../images/2x/hero-bg_desktop 2x.jpg"); } }
 
@@ -514,3 +544,17 @@ footer {
     padding: 73px 45px 50px; }
   footer .container {
     padding: 0 45px; } }
+  
+@media (min-width: 481px) and (max-width: 767px) { 
+  .containerpp{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  } 
+
+@media (max-width:480px){
+  .containerpp{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
